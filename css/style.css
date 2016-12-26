@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #E4FFCF url(../img/main.jpg) no-repeat top center;
+    font-family: Futura, "Century Gothic", AppleGothic, sans-serif;
+    overflow: auto;
+}
+
+h1 {
+    font-family: ??????;
+    text-align: center;
+    font-size: 70px;
+    color: #f00;
+    margin: 20px 0px 20px 20px;
+    /*text-shadow: 1px 1px 1px #555;*/
+    text-shadow: 0px 0px #504F4E, 0px 1px #424241, -1px 2px #353534, -2px 3px #282827, 0px 6px 5px rgba(51, 50, 47, 0.8);
+    font-weight: normal;
+}
+
+p {
+    font-family: ??????;
+    font-size: 48px;
+    color: #fff;
+    text-shadow: 0px 0px #504F4E, 0px 1px #424241, -1px 2px #353534, -2px 3px #282827, 0px 6px 5px rgba(51, 50, 47, 0.8);
+}
+
+.littleBoxes {
+    width: 612px;
+    height: 612px;
+    margin: 0 auto;
+    position: relative;
+}
+
+    .littleBoxes > div {
+        position: absolute;
+        width: 200px;
+        height: 200px;
+        text-align: center;
+        border: 2px solid white;
+        overflow: hidden;
+        background-color: #f7f7f7;
+        -moz-box-shadow: 0px 0px 3px #555;
+        -webkit-box-shadow: 0px 0px 3px #555;
+        box-shadow: 0px 0px 3px #555;
+        background-position: center center;
+        z-index: 999;
+    }
+
+    .littleBoxes div a.title {
+        font-family: 'Microsoft YaHei UI';
+        text-transform: uppercase;
+        font-size: 48px;
+        font-weight: bold;
+        letter-spacing: -1px;
+        display: block;
+        line-height: 200px;
+        vertical-align: bottom;
+        text-decoration: none;
+        color: #fff;
+        /*background: #91EF4A url(../bgItem.png) repeat-x top left;*/
+        background-image: radial-gradient(rgba(15, 241, 54, 0.50),rgba(35, 158, 212, 0.50));
+        outline: none;
+        text-shadow: 1px 1px 1px #888;
+        -moz-box-shadow: 1px 1px 3px #777;
+        -webkit-box-shadow: 1px 1px 3px #777;
+        box-shadow: 1px 1px 3px #777;
+        /*text-shadow: 0px 0px #504F4E, 0px 1px #424241, -1px 2px #353534, -2px 3px #282827, 0px 6px 5px rgba(51, 50, 47, 0.8);*/
+    }
+
+    .littleBoxes div.boxcontent {
+        width: 612px; /*612*/
+        height: 412px; /*412*/
+        text-align: left;
+        /*padding: 10px;*/
+        font-size: 16px;
+        background-color: #f0f0f0;
+        /*border: 2px solid #fff;*/
+        /*margin: 10px 0px 0px 10px;*/
+        text-shadow: 1px 1px 1px #fff;
+        -moz-box-shadow: 1px 1px 3px #777;
+        -webkit-box-shadow: 1px 1px 3px #777;
+        box-shadow: 1px 1px 3px #777;
+        opacity: 0.8;
+        display: none;
+    }
+
+    .littleBoxes div a.title:hover {
+        text-shadow: 0px 0px #195CAF, 0px 1px #16529B, -1px 2px #144788, -2px 3px #113D74, 0px 6px 5px rgba(51, 50, 47, 0.8), 0 0 1em #1c66c2;
+        color: silver;
+    }
