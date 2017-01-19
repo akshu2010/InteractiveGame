@@ -1,6 +1,6 @@
 # 互动游戏网页抽签版
 
-　　互动游戏，可以随机选择图片（图片上带有游戏内容），与所选择的字无关。
+　　[互动游戏](http://blog.csdn.net/jinliwei1990/article/details/54604845)，可以随机选择图片（图片上带有游戏内容），与所选择的字无关。
 ## 网页效果
 ![东拼西凑-before](http://img.blog.csdn.net/20170118214228835?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvamlubGl3ZWkxOTkw/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
 点击前
