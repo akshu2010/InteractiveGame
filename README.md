@@ -5,8 +5,8 @@
 ![东拼西凑-before](http://img.blog.csdn.net/20170118214228835?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvamlubGl3ZWkxOTkw/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
 点击前
 ![东拼西凑-after](http://img.blog.csdn.net/20170118214257185?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvamlubGl3ZWkxOTkw/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
-点击后
-　　屏幕左下角显示游戏图片编号，游戏内容选择与所选的文字无关，带有时钟，可以设置计时任务。网页源码见[InteractiveGame](https://github.com/jinliwei/InteractiveGame)。
+点击后<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;屏幕左下角显示游戏图片编号，游戏内容选择与所选的文字无关，带有时钟，可以设置计时任务。网页源码见[InteractiveGame](https://github.com/jinliwei/InteractiveGame)。
 ## 代码实现
 html部分：
 ```html
@@ -26,7 +26,7 @@ html部分：
           <a class="title" href="">来</a>
           <div class="boxcontent"><img /></div>
         </div>
-        <div id="item21"">
+        <div id="item21">
           <a class="title" href="">金</a>
           <div class="boxcontent"><img /></div>
         </div>
@@ -67,7 +67,7 @@ html部分：
     </footer>
   </div>
 ```
-js：
+js代码，可以修改格子大小：
 ```JavaScript
 $(function() {
   var w = 200; //littleBoxes width
